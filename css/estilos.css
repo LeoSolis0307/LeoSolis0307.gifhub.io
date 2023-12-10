@@ -56,7 +56,6 @@ li{
     float: left;
     padding: 8px;  
 }
-/*css # IDs y calse*/
 nav{
     position: fixed;
     width: 100%;
@@ -78,41 +77,11 @@ nav ul{
     text-align: center; 
     justify-content: center;
 }
-
-#logo{
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 70px;
-}
-#redes_sociales{
-    margin-top: 70px;
-    margin-left: 20px;
-    color: #C8106C;
-}
-#imagen_principal{
-    margin: 40px;
-}
-#inicio{
-    background-image: url("../imagenes_pagian_web/klim-musalimov-PsCLdzFfkJc-unsplash.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 200px;
-    padding-top: 200px;
-}
-#portfolio{
-    border-top: 2px solid #ffc900;
-}
-/* Estilo para la sección Experiencia and Skills */
-#experiencia_and_skills{
-    background-color: #fff; 
-    margin: 80px;
-    border-radius: 100px;
-    margin-top: 150px;
-
-}
-#experiencia_and_skills h2{
-    line-height: 100px;
+.filaportfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px 30px;
 
 }
 .skills-container {
@@ -142,20 +111,6 @@ nav ul{
 .skill-category ul {
     list-style-type: disc;
     margin-left: 20px;
-}
-
-#contactar{
-    height: 29%;
-    background-color: #ffc900;
-    width: 100%; 
-}
-
-.filaportfolio{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 30px 30px;
-
 }
 .card {
     width: 310px;
@@ -196,3 +151,64 @@ nav ul{
     padding: 10px;
     border-radius: 20px;
 }
+.itemform{
+    color: #000;
+    padding: 5px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 150px 350px;  
+    justify-content: left;
+}
+/*css # IDs y calse*/
+
+
+#logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 70px;
+}
+#redes_sociales{
+    margin-top: 60px;
+    margin-left: 0px;
+    color: #C8106C;
+}
+#imagen_principal{
+    margin: 40px;
+}
+#inicio{
+    background-image: url("../imagenes_pagian_web/klim-musalimov-PsCLdzFfkJc-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    padding-top: 200px;
+}
+#portfolio{
+    border-top: 2px solid #ffc900;
+}
+/* Estilo para la sección Experiencia and Skills */
+#experiencia_and_skills{
+    background-color: #fff; 
+    margin: 80px;
+    border-radius: 100px;
+    margin-top: 150px;
+
+}
+#experiencia_and_skills h2{
+    line-height: 100px;
+
+}
+
+
+#contactar{
+    background-color: #ffc900;
+    width: 100%;  
+}
+#contactar h2{
+    color: #000;
+    text-align: left;
+    margin: 15px;
+}
+
+
+
