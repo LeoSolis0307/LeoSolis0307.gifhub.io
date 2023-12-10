@@ -157,7 +157,7 @@ nav ul{
     margin: 5px;
     display: grid;
     grid-template-columns: 150px 350px;  
-    justify-content: left;
+    justify-content: center;
 }
 /*css # IDs y calse*/
 
@@ -198,15 +198,13 @@ nav ul{
     line-height: 100px;
 
 }
-
-
 #contactar{
     background-color: #ffc900;
-    width: 100%;  
+    width: 90%;  
 }
 #contactar h2{
     color: #000;
-    text-align: left;
+    text-align: center;
     margin: 15px;
 }
 
